@@ -1,6 +1,6 @@
 # Rich Interactive Widgets for Terminal UIs
 
-[![Godoc Reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/rivo/tview)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/rivo/tview)](https://pkg.go.dev/github.com/rivo/tview)
 [![Go Report](https://img.shields.io/badge/go%20report-A%2B-brightgreen.svg)](https://goreportcard.com/report/github.com/rivo/tview)
 
 This Go package provides commonly needed components for terminal based user interfaces.
@@ -51,6 +51,7 @@ For a presentation highlighting this package, compile and run the program found 
 
 ## Projects using `tview`
 
+- [IRCCloud Terminal Client](https://github.com/termoose/irccloud)
 - [Window manager for `tview`](https://github.com/epiclabs-io/winman)
 - [Password manager](https://github.com/7onetella/password)
 - [CLI bookmark manager](https://github.com/Endi1/drawer)
@@ -84,6 +85,9 @@ For a presentation highlighting this package, compile and run the program found 
 - [Cryptowatch Go SDK](https://github.com/y3sh/cw-sdk-go)
 - [Discord, TUI and SIXEL.](https://gitlab.com/diamondburned/6cord)
 - [A CLI Audio Player](https://www.github.com/dhulihan/grump)
+- [GLab, a GitLab CLI tool](https://gitlab.com/profclems/glab)
+- [Browse your AWS ECS Clusters in the Terminal](https://github.com/swartzrock/ecsview)
+- [The CLI Task Manager for Geeks](https://github.com/ajaxray/geek-life)
 
 ## Documentation
 
@@ -99,7 +103,7 @@ I try really hard to keep this project backwards compatible. Your software shoul
 
 - a new version of an imported package (most likely [`tcell`](https://github.com/gdamore/tcell)) changes in such a way that forces me to make changes in `tview` as well,
 - I fix something that I consider a bug, rather than a feature, something that does not work as originally intended,
-- I make changes to "internal" interfaces such as [`Primitive`](https://pkg.go.dev/github.com/rivo/tview#Primitive) or [`Focusable`](https://pkg.go.dev/github.com/rivo/tview#Focusable). You shouldn't need these interfaces unless you're writing your own primitives for `tview`. (Yes, I realize these are public interfaces. This has advantages as well as disadvantages. For the time being, it is what it is.)
+- I make changes to "internal" interfaces such as [`Primitive`](https://pkg.go.dev/github.com/rivo/tview#Primitive). You shouldn't need these interfaces unless you're writing your own primitives for `tview`. (Yes, I realize these are public interfaces. This has advantages as well as disadvantages. For the time being, it is what it is.)
 
 ## Your Feedback
 
